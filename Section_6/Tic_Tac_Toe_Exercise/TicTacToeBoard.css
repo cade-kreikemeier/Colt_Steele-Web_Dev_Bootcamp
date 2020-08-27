@@ -3,24 +3,20 @@ h1 {
 }
 
 table {
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 }
 
 td {
-	padding: 100px;
+	width: 100px;
+	height: 100px;
 }
 
-#vertical-borders {
+.vertical-borders {
 	border-right: 1px solid black;
 	border-left: 1px solid black;
 }
 
-#horizontal-borders {
+.horizontal-borders {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
-}
-
-#all-borders {
-	border: 1px solid black;
 }
